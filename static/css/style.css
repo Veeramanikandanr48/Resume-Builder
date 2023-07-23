@@ -2,10 +2,14 @@
 body {
     margin: 0px;
     padding: 0px;
+    backdrop-filter: blur(10px);
+    height: 100vh;
 }
 
 .homepage, .bg_image{
     background-image: url("../img/img_home.jpg");
+    background-size: cover;
+    
 }
 
 header{
